@@ -1,0 +1,82 @@
+.dialog {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border:node;
+  }
+  
+  .dialog-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size:large;
+  }
+  .dialog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size:large;
+  }
+  
+  .dialog-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .fa-close {
+    cursor: pointer;
+  }
+  
+  textarea {
+    resize:none;
+    padding:10px;
+    border:none;
+  }
+  
+  hr {
+    width:100%;
+  }
+  
+  button {
+    border:none;
+    shadow:none;
+    background:none;
+  }
+  
+  .h1{
+    font-size:xx-large;
+    font-weight:bold;
+  }
+  .h2{
+    font-size:x-large;
+    font-weight:bold;
+  }
+  .h3{
+    font-size:large;
+    font-weight:bold;
+  }
+  .h4{
+    font-size:medium;
+    font-weight:bold;
+  }
+  .h5{
+    font-size:small;
+    font-weight:bold;
+  }
+  .h6{
+    font-size:x-small;
+    font-weight:bold;
+  }
+  .body1{
+    font-size:medium;
+    font-weight:bold;
+  }
+  .body2{
+    font-size:medium;
+  }
+  .body3{
+    font-size:small;
+  }
