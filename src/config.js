@@ -1,12 +1,11 @@
 // 環境に基づいてAzure FunctionのBase URIを設定
 function getAzureFunctionBaseURI() {
     // ローカル開発環境の場合
-/* 
     if (window.location.hostname === "localhost") {
-      return "http://localhost:7268/api";
+      return "http://localhost:7207/api";
     }
 
- */    // 開発環境
+    // 開発環境
     return "https://linebottest20240807144515.azurewebsites.net/api";
   }
 
