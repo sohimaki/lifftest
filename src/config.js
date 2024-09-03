@@ -6,7 +6,7 @@ function getAzureFunctionBaseURI() {
     }
 
     // 開発環境
-    return "https://linebottest20240807144515.azurewebsites.net/api";
+    return "https://linebottest20240903095443.azurewebsites.net/api";
   }
 
   export default {
